@@ -10,6 +10,7 @@ food_imports <- read.csv("https://ers.usda.gov/sites/default/files/_laserfiche/D
 
 ```{r}
 library(readxl)
+
 value <- read_xlsx("FoodImports.xlsx", sheet = "FoodValue")
 value_perc <- read_xlsx("FoodImports.xlsx", sheet = "FoodValue%")
 volume <- read_xlsx("FoodImports.xlsx", sheet = "FoodVolume")
@@ -26,7 +27,13 @@ meats <- read_xlsx("FoodImports.xlsx", sheet = "Meats")
 
 ```
 
+
 ```{r}
-cocoa <- cocoa[-c(1, 2, 14, 24, 44, 45, 46), ]
+rm_empty_row <- function(df) {
+  df[!(is.na(df$...5)), ]
+}
+
+grains <- rm_empty_row(grains)
+
 ```
 
