@@ -3,7 +3,7 @@ title: "data file"
 format: html
 editor: visual
 ---
-```{r}
-food_imports <- read.csv("FoodImports.csv")
-```
 
+```{r}
+food_imports <- read.csv("https://ers.usda.gov/sites/default/files/_laserfiche/DataFiles/53736/FoodImports.csv?v=16998", header = TRUE)
+```
