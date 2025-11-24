@@ -7,3 +7,26 @@ editor: visual
 ```{r}
 food_imports <- read.csv("https://ers.usda.gov/sites/default/files/_laserfiche/DataFiles/53736/FoodImports.csv?v=16998", header = TRUE)
 ```
+
+```{r}
+library(readxl)
+value <- read_xlsx("FoodImports.xlsx", sheet = "FoodValue")
+value_perc <- read_xlsx("FoodImports.xlsx", sheet = "FoodValue%")
+volume <- read_xlsx("FoodImports.xlsx", sheet = "FoodVolume")
+volume_perc <- read_xlsx("FoodImports.xlsx", sheet = "FoodVolume%")
+animals <- read_xlsx("FoodImports.xlsx", sheet = "Animals")
+beverages <- read_xlsx("FoodImports.xlsx", sheet = "Beverages")
+cocoa <- read_xlsx("FoodImports.xlsx", sheet = "Cocoa")
+coffee <- read_xlsx("FoodImports.xlsx", sheet = "Coffee")
+dairy <- read_xlsx("FoodImports.xlsx", sheet = "Dairy")
+fish <- read_xlsx("FoodImports.xlsx", sheet = "Fish")
+fruits <- read_xlsx("FoodImports.xlsx", sheet = "Fruits")
+grains <- read_xlsx("FoodImports.xlsx", sheet = "Grains")
+meats <- read_xlsx("FoodImports.xlsx", sheet = "Meats")
+
+```
+
+```{r}
+cocoa <- cocoa[-c(1, 2, 14, 24, 44, 45, 46), ]
+```
+
