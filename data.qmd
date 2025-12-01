@@ -27,7 +27,6 @@ meats <- read_xlsx("FoodImports.xlsx", sheet = "Meats")
 
 ```
 
-
 ```{r}
 rm_empty_row <- function(df) {
   df[!(is.na(df$...5)), ]
@@ -36,4 +35,3 @@ rm_empty_row <- function(df) {
 grains <- rm_empty_row(grains)
 
 ```
-
