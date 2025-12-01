@@ -27,13 +27,24 @@ meats <- read_xlsx("FoodImports.xlsx", sheet = "Meats")
 
 ```
 
-
 ```{r}
 rm_empty_row <- function(df) {
   df[!(is.na(df$...5)), ]
 }
 
+animals <- rm_empty_row(animals)
+beverages <- rm_empty_row(beverages)
+cocoa <- rm_empty_row(cocoa)
+coffe <- rm_empty_row(coffee)
+dairy <- rm_empty_row(dairy)
+fish <- rm_empty_row(fish)
+fruits <- rm_empty_row(fruits)
 grains <- rm_empty_row(grains)
+meats <- rm_empty_row(meats)
+value <- rm_empty_row(value)
+value_perc <- rm_empty_row(value_perc)
+volume <- rm_empty_row(volume)
+volume_perc <- rm_empty_row(volume_perc)
+
 
 ```
-
