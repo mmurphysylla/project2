@@ -10,6 +10,7 @@ food_imports <- read.csv("https://ers.usda.gov/sites/default/files/_laserfiche/D
 
 ```{r}
 library(readxl)
+
 value <- read_xlsx("FoodImports.xlsx", sheet = "FoodValue")
 value_perc <- read_xlsx("FoodImports.xlsx", sheet = "FoodValue%")
 volume <- read_xlsx("FoodImports.xlsx", sheet = "FoodVolume")
@@ -31,5 +32,15 @@ meats <- read_xlsx("FoodImports.xlsx", sheet = "Meats")
 library(dplyr)
 cocoa <- cocoa |> rename("Country" = ...3, "Unit of Measurement" = ...4, "2024" = ...5, "2023" = ...6, "2022" = ...7, "2021" = ...8, "2020" = ...9, "2019" = ...10, "2018" = ...11, "2017" = ...12, "2016" = ...13, "2015" = ...14, "2014" = ...15, "2013" = ...16, "2012" = ...17, "2011" = ...18, "2010" = ...19, "2009" = ...20, "2008" = ...21, "2007" = ...22, "2006" = ...23, "2005" = ...24, "2004" = ...25, "2003" = ...26, "2002" = ...27, "2001" = ...28, "2000" = ...29, "1999" = ...30)
 cocoa <- cocoa |> filter(!(is.na(Country))) |> select(!(...2))
+```
+
+
+```{r}
+rm_empty_row <- function(df) {
+  df[!(is.na(df$...5)), ]
+}
+
+grains <- rm_empty_row(grains)
+
 ```
 
