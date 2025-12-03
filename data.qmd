@@ -49,4 +49,144 @@ volume_perc <- rm_empty_row(volume_perc)
 
 ```
 
+```{r}
+library(dplyr)
+rename_variable <- function(df) {
+  df |> rename("Location" = ...3, "Measurement" = ...4, "2024" = ...5, "2023" = ...6, "2022" = ...7, "2021" = ...8, "2020" = ...9, "2019" = ...10, "2018" = ...11, "2017" = ...12, "2016" = ...13, "2015" = ...14, "2014" = ...15, "2013" = ...16, "2012" = ...17, "2011" = ...18, "2010" = ...19, "2009" = ...20, "2008" = ...21, "2007" = ...22, "2006" = ...23, "2005" = ...24, "2004" = ...25, "2003" = ...26, "2002" = ...27, "2001" = ...28, "2000" = ...29, "1999" = ...30) |> select(!(...2)) |> filter(!is.na(Measurement))
+}
 
+animals <- rename_variable(animals)
+beverages <- rename_variable(beverages)
+cocoa <- rename_variable(cocoa)
+coffee <- rename_variable(coffee)
+dairy <- rename_variable(dairy)
+fish <- rename_variable(fish)
+fruits <- rename_variable(fruits)
+grains <- rename_variable(grains)
+meats <- rename_variable(meats)
+
+```
+
+```{r}
+rename_variable_other <- function(df) {
+  df |> rename("Category" = ...2, "Measurement" = ...3, "2024" = ...4, "2023" = ...5, "2022" = ...6, "2021" = ...7, "2020" = ...8, "2019" = ...9, "2018" = ...10, "2017" = ...11, "2016" = ...12, "2015" = ...13, "2014" = ...14, "2013" = ...15, "2012" = ...16, "2011" = ...17, "2010" = ...18, "2009" = ...19, "2008" = ...20, "2007" = ...21, "2006" = ...22, "2005" = ...23, "2004" = ...24, "2003" = ...25, "2002" = ...26, "2001" = ...27, "2000" = ...28, "1999" = ...29) |> filter(!is.na(Measurement))
+}
+value <- rename_variable_other(value)
+volume <- rename_variable_other(volume)
+```
+
+```{r}
+rename_variable_final <- function(df) {
+  df |> rename("Category" = ...2, "Measurement" = ...3, "10-yr Average" = ...4, "2024" = ...5, "2023" = ...6, "2022" = ...7, "2021" = ...8, "2020" = ...9, "2019" = ...10, "2018" = ...11, "2017" = ...12, "2016" = ...13, "2015" = ...14, "2014" = ...15, "2013" = ...16, "2012" = ...17, "2011" = ...18, "2010" = ...19, "2009" = ...20, "2008" = ...21, "2007" = ...22, "2006" = ...23, "2005" = ...24, "2004" = ...25, "2003" = ...26, "2002" = ...27, "2001" = ...28, "2000" = ...29) |> filter(!is.na(Measurement))
+}
+value_perc <- rename_variable_final(value_perc)
+volume_perc <- rename_variable_final(volume_perc)
+```
+
+```{r}
+animals$`U.S. imports of live meat animals and eggs`[1:5] = "Total live animals"
+animals$`U.S. imports of live meat animals and eggs`[6:9] = "Bovine animals, live"
+animals$`U.S. imports of live meat animals and eggs`[10:12] = "Swine, live"
+animals$`U.S. imports of live meat animals and eggs`[13:15] = "Sheep and goats, live"
+animals$`U.S. imports of live meat animals and eggs`[16:18] = "Live poultry"
+animals$`U.S. imports of live meat animals and eggs`[19:27] = "Bird eggs"
+```
+
+```{r}
+beverages$`U.S. imports of beverages`[1:12] = "Total beverages"
+beverages$`U.S. imports of beverages`[13:22] = "Wine"
+beverages$`U.S. imports of beverages`[23:32] = "Malt beer"
+beverages$`U.S. imports of beverages`[33:41] = "Nonalcoholic beverages"
+beverages$`U.S. imports of beverages`[42:52] = "Liquors"
+```
+
+```{r}
+cocoa$`U.S. imports of cocoa and chocolate`[1:10] = "Total cocoa products"
+cocoa$`U.S. imports of cocoa and chocolate`[11:19] = "Cocoa beans"
+cocoa$`U.S. imports of cocoa and chocolate`[20:30] = "Cocoa paste, butter, and powder"
+cocoa$`U.S. imports of cocoa and chocolate`[31:41] = "Chocolate"
+```
+
+```{r}
+coffee$`U.S. imports of coffee, tea, and spices`[1:10] = "Total coffee, tea, and spices"
+coffee$`U.S. imports of coffee, tea, and spices`[11:19] = "Coffee beans, unroasted"
+coffee$`U.S. imports of coffee, tea, and spices`[20:27] = "Coffee, roasted and instant"
+coffee$`U.S. imports of coffee, tea, and spices`[28:34] = "Coffee extracts and preparations"
+coffee$`U.S. imports of coffee, tea, and spices`[35:41] = "Tea and mate"
+coffee$`U.S. imports of coffee, tea, and spices`[42:52] = "Spices"
+```
+
+```{r}
+dairy$`U.S. imports of dairy products`[1:11] = "Total diary products"
+dairy$`U.S. imports of dairy products`[12:21] = "Cheese, fresh or processed"
+dairy$`U.S. imports of dairy products`[22:31] = "Yogurt, buttermilk, whey"
+dairy$`U.S. imports of dairy products`[32:40] = "Milk and cream"
+dairy$`U.S. imports of dairy products`[41:49] = "Butter or spreads"
+```
+
+```{r}
+fish$`U.S. imports of fish and shellfish`[1:10] = "Total fish and shellfish"
+fish$`U.S. imports of fish and shellfish`[11:19] = "Whole fish, fresh, chilled or frozen"
+fish$`U.S. imports of fish and shellfish`[20:28] = "Fish fillets and mince"
+fish$`U.S. imports of fish and shellfish`[29:39] = "Shellfish, fresh or frozen"
+fish$`U.S. imports of fish and shellfish`[40:50] = "Prepared fish and shellfish"
+```
+
+```{r}
+fruits$`U.S. imports of fruit and preparations`[1:13] = "Total fruit"
+fruits$`U.S. imports of fruit and preparations`[14:26] = "Fresh or chilled fruit"
+fruits$`U.S. imports of fruit and preparations`[27:35] = "Banana and plantains"
+fruits$`U.S. imports of fruit and preparations`[36:44] = "Frozen fruit"
+fruits$`U.S. imports of fruit and preparations`[45:53] = "Dried, prepared, or preserved fruits"
+fruits$`U.S. imports of fruit and preparations`[54:64] = "Fruit juices"
+```
+
+```{r}
+grains$`U.S. imports of grains and grain products`[1:12] = "Total grain products"
+grains$`U.S. imports of grains and grain products`[13:22] = "Bulk grains"
+grains$`U.S. imports of grains and grain products`[23:29] = "Wheat and products"
+grains$`U.S. imports of grains and grain products`[30:36] = "Rice and products"
+grains$`U.S. imports of grains and grain products`[37:46] = "Milled grain and products"
+grains$`U.S. imports of grains and grain products`[47:56] = "Cereal and bakery foods"
+```
+
+```{r}
+meats$`U.S. imports of meats and products`[1:10] = "Total red meats, fresh and frozen"
+meats$`U.S. imports of meats and products`[11:19] = "Fresh or chilled red meats"
+meats$`U.S. imports of meats and products`[20:28] = "Frozen red meats and parts"
+meats$`U.S. imports of meats and products`[29:35] = "Fowl and other meats"
+meats$`U.S. imports of meats and products`[36:46] = "Prepared meats"
+```
+
+```{r}
+value$`U.S. food import value, by food group`[1] = "Total foods"
+value$`U.S. food import value, by food group`[2:15] = "Foods"
+value$`U.S. food import value, by food group`[16:18] = "Subtotal foods"
+value$`Category`[2] = "Beverages"
+value$`Category`[6] = "Fish and Shellfish"
+value$`Category`[17] = "Beverages"
+```
+
+```{r}
+value_perc$`U.S. food import value, by food group, percent change from last year`[1] = "Total foods"
+value_perc$`U.S. food import value, by food group, percent change from last year`[2:15] = "Foods"
+value_perc$`U.S. food import value, by food group, percent change from last year`[16:18] = "Subtotal foods"
+value_perc$`Category`[2] = "Beverages"
+value_perc$`Category`[6] = "Fish and Shellfish"
+value_perc$`Category`[17] = "Beverages"
+```
+
+```{r}
+volume$`U.S. food import volume, by food group`[1:14] = "Foods"
+volume$`Category`[1] = "Live meat animals"
+volume$`Category`[3] = "Fish and Shellfish"
+volume$`Category`[6] = "Fruits"
+volume$`Category`[13] = "Other edible products"
+volume$`Category`[14] = "Beverages"
+volume_perc$`U.S. food import volume, by food group, percent change from last year`[1:14] = "Foods"
+volume_perc$`Category`[1] = "Live meat animals"
+volume_perc$`Category`[3] = "Fish and Shellfish"
+volume_perc$`Category`[6] = "Fruits"
+volume_perc$`Category`[13] = "Other edible products"
+volume_perc$`Category`[14] = "Beverages"
+```
