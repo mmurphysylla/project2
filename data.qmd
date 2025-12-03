@@ -27,20 +27,26 @@ meats <- read_xlsx("FoodImports.xlsx", sheet = "Meats")
 
 ```
 
-# Cleaning Cocoa
-```{r}
-library(dplyr)
-cocoa <- cocoa |> rename("Country" = ...3, "Unit of Measurement" = ...4, "2024" = ...5, "2023" = ...6, "2022" = ...7, "2021" = ...8, "2020" = ...9, "2019" = ...10, "2018" = ...11, "2017" = ...12, "2016" = ...13, "2015" = ...14, "2014" = ...15, "2013" = ...16, "2012" = ...17, "2011" = ...18, "2010" = ...19, "2009" = ...20, "2008" = ...21, "2007" = ...22, "2006" = ...23, "2005" = ...24, "2004" = ...25, "2003" = ...26, "2002" = ...27, "2001" = ...28, "2000" = ...29, "1999" = ...30)
-cocoa <- cocoa |> filter(!(is.na(Country))) |> select(!(...2))
-```
-
-
 ```{r}
 rm_empty_row <- function(df) {
   df[!(is.na(df$...5)), ]
 }
 
+animals <- rm_empty_row(animals)
+beverages <- rm_empty_row(beverages)
+cocoa <- rm_empty_row(cocoa)
+coffe <- rm_empty_row(coffee)
+dairy <- rm_empty_row(dairy)
+fish <- rm_empty_row(fish)
+fruits <- rm_empty_row(fruits)
 grains <- rm_empty_row(grains)
+meats <- rm_empty_row(meats)
+value <- rm_empty_row(value)
+value_perc <- rm_empty_row(value_perc)
+volume <- rm_empty_row(volume)
+volume_perc <- rm_empty_row(volume_perc)
+
 
 ```
+
 
