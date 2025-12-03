@@ -69,7 +69,7 @@ meats <- rename_variable(meats)
 
 ```{r}
 rename_variable_other <- function(df) {
-  df |> rename("Location" = ...2, "Measurement" = ...3, "2024" = ...4, "2023" = ...5, "2022" = ...6, "2021" = ...7, "2020" = ...8, "2019" = ...9, "2018" = ...10, "2017" = ...11, "2016" = ...12, "2015" = ...13, "2014" = ...14, "2013" = ...15, "2012" = ...16, "2011" = ...17, "2010" = ...18, "2009" = ...19, "2008" = ...20, "2007" = ...21, "2006" = ...22, "2005" = ...23, "2004" = ...24, "2003" = ...25, "2002" = ...26, "2001" = ...27, "2000" = ...28, "1999" = ...29) |> filter(!is.na(Measurement))
+  df |> rename("Category" = ...2, "Measurement" = ...3, "2024" = ...4, "2023" = ...5, "2022" = ...6, "2021" = ...7, "2020" = ...8, "2019" = ...9, "2018" = ...10, "2017" = ...11, "2016" = ...12, "2015" = ...13, "2014" = ...14, "2013" = ...15, "2012" = ...16, "2011" = ...17, "2010" = ...18, "2009" = ...19, "2008" = ...20, "2007" = ...21, "2006" = ...22, "2005" = ...23, "2004" = ...24, "2003" = ...25, "2002" = ...26, "2001" = ...27, "2000" = ...28, "1999" = ...29) |> filter(!is.na(Measurement))
 }
 value <- rename_variable_other(value)
 volume <- rename_variable_other(volume)
@@ -162,15 +162,31 @@ meats$`U.S. imports of meats and products`[36:46] = "Prepared meats"
 value$`U.S. food import value, by food group`[1] = "Total foods"
 value$`U.S. food import value, by food group`[2:15] = "Foods"
 value$`U.S. food import value, by food group`[16:18] = "Subtotal foods"
+value$`Category`[2] = "Beverages"
+value$`Category`[6] = "Fish and Shellfish"
+value$`Category`[17] = "Beverages"
 ```
 
 ```{r}
 value_perc$`U.S. food import value, by food group, percent change from last year`[1] = "Total foods"
 value_perc$`U.S. food import value, by food group, percent change from last year`[2:15] = "Foods"
 value_perc$`U.S. food import value, by food group, percent change from last year`[16:18] = "Subtotal foods"
+value_perc$`Category`[2] = "Beverages"
+value_perc$`Category`[6] = "Fish and Shellfish"
+value_perc$`Category`[17] = "Beverages"
 ```
 
 ```{r}
 volume$`U.S. food import volume, by food group`[1:14] = "Foods"
+volume$`Category`[1] = "Live meat animals"
+volume$`Category`[3] = "Fish and Shellfish"
+volume$`Category`[6] = "Fruits"
+volume$`Category`[13] = "Other edible products"
+volume$`Category`[14] = "Beverages"
 volume_perc$`U.S. food import volume, by food group, percent change from last year`[1:14] = "Foods"
+volume_perc$`Category`[1] = "Live meat animals"
+volume_perc$`Category`[3] = "Fish and Shellfish"
+volume_perc$`Category`[6] = "Fruits"
+volume_perc$`Category`[13] = "Other edible products"
+volume_perc$`Category`[14] = "Beverages"
 ```
