@@ -1,5 +1,5 @@
 ---
-title: "data file"
+title: "Data Tidying"
 format: html
 editor: visual
 ---
@@ -35,7 +35,7 @@ rm_empty_row <- function(df) {
 animals <- rm_empty_row(animals)
 beverages <- rm_empty_row(beverages)
 cocoa <- rm_empty_row(cocoa)
-coffe <- rm_empty_row(coffee)
+coffee <- rm_empty_row(coffee)
 dairy <- rm_empty_row(dairy)
 fish <- rm_empty_row(fish)
 fruits <- rm_empty_row(fruits)
@@ -189,4 +189,97 @@ volume_perc$`Category`[3] = "Fish and Shellfish"
 volume_perc$`Category`[6] = "Fruits"
 volume_perc$`Category`[13] = "Other edible products"
 volume_perc$`Category`[14] = "Beverages"
+```
+
+```{r}
+library(tidyr)
+library(tidyverse)
+
+animals <-
+  animals |> 
+  pivot_longer(cols = c("2024":"1999"),
+               names_to = "Year",
+               values_to = "Imports") |>
+  mutate(Year = as.numeric(Year)) |>
+  mutate(Imports = as.numeric(Imports))
+
+beverages <-
+  beverages |> 
+  pivot_longer(cols = c("2024":"1999"),
+               names_to = "Year",
+               values_to = "Imports") |>
+  mutate(Year = as.numeric(Year)) |>
+  mutate(Imports = as.numeric(Imports))
+
+cocoa <-
+  cocoa |> 
+  pivot_longer(cols = c("2024":"1999"),
+               names_to = "Year",
+               values_to = "Imports") |>
+  mutate(Year = as.numeric(Year)) |>
+  mutate(Imports = as.numeric(Imports))
+
+coffee <-
+  coffee |> 
+  pivot_longer(cols = c("2024":"1999"),
+               names_to = "Year",
+               values_to = "Imports") |>
+  mutate(Year = as.numeric(Year)) |>
+  mutate(Imports = as.numeric(Imports))
+
+dairy <-
+  dairy |> 
+  pivot_longer(cols = c("2024":"1999"),
+               names_to = "Year",
+               values_to = "Imports") |>
+  mutate(Year = as.numeric(Year)) |>
+  mutate(Imports = as.numeric(Imports))
+
+fish <-
+  fish |> 
+  pivot_longer(cols = c("2024":"1999"),
+               names_to = "Year",
+               values_to = "Imports") |>
+  mutate(Year = as.numeric(Year)) |>
+  mutate(Imports = as.numeric(Imports))
+
+fruits <-
+  fruits |> 
+  pivot_longer(cols = c("2024":"1999"),
+               names_to = "Year",
+               values_to = "Imports") |>
+  mutate(Year = as.numeric(Year)) |>
+  mutate(Imports = as.numeric(Imports))
+
+grains <-
+  grains |> 
+  pivot_longer(cols = c("2024":"1999"),
+               names_to = "Year",
+               values_to = "Imports") |>
+  mutate(Year = as.numeric(Year)) |>
+  mutate(Imports = as.numeric(Imports))
+
+meats <-
+  meats |> 
+  pivot_longer(cols = c("2024":"1999"),
+               names_to = "Year",
+               values_to = "Imports") |>
+  mutate(Year = as.numeric(Year)) |>
+  mutate(Imports = as.numeric(Imports))
+
+volume <-
+  volume |>
+  pivot_longer(cols = c("2024":"1999"),
+               names_to = "Year",
+               values_to = "Imports") |>
+  mutate(Year = as.numeric(Year)) |>
+  mutate(Imports = as.numeric(Imports))
+
+value <-
+  value |>
+  pivot_longer(cols = c("2024":"1999"),
+               names_to = "Year",
+               values_to = "Imports") |>
+  mutate(Year = as.numeric(Year)) |>
+  mutate(Imports = as.numeric(Imports))
 ```

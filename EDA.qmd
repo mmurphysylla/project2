@@ -1,0 +1,85 @@
+---
+title: "Exploratory Data Analysis"
+format: html
+---
+
+# Exploratory Data Analysis
+
+## Assessing Meat Import Volume Trends Over Time
+
+```{r}
+volume_meat <-
+  volume |>
+  filter(Category == "Meats")
+```
+
+```{r}
+volume_meat <-
+  volume_meat |>
+  mutate(Imports = Imports * 1000) |>
+  select(`U.S. food import volume, by food group`, Year, Imports)
+```
+
+```{r}
+ggplot(volume_meat, aes(x = Year, y = Imports)) +
+  geom_line(linewidth = 1) +
+  geom_point() +
+  scale_x_continuous(breaks = seq(min(volume_meat$Year), max(volume_meat$Year), by = 5)) +
+  theme_minimal() +
+  labs(title = "U.S. Meat Import Volume Trends (1999-2024)",
+    x = "Year",
+    y = "Import Volume (Metric Tons)")
+```
+
+## Assessing Dairy Import Volume Trends Over Time
+
+```{r}
+volume_dairy <-
+  volume |>
+  filter(Category == "Dairy")
+```
+
+```{r}
+volume_dairy <-
+  volume_dairy |>
+  mutate(Imports = Imports * 1000) |>
+  select(`U.S. food import volume, by food group`, Year, Imports)
+```
+
+```{r}
+ggplot(volume_dairy, aes(x = Year, y = Imports)) +
+  geom_line(linewidth = 1) +
+  geom_point() +
+  scale_x_continuous(breaks = seq(min(volume_dairy$Year), max(volume_dairy$Year), by = 5)) +
+  theme_minimal() +
+  labs(title = "U.S. Dairy Import Volume Trends (1999-2024)",
+    x = "Year",
+    y = "Import Volume (Metric Tons)")
+```
+
+## Assessing Rice Import Volume
+
+```{r}
+volume_rice <-
+  grains |>
+  filter(`U.S. imports of grains and grain products` == "Rice and products",
+         Measurement == "1,000 metric tons")
+```
+
+```{r}
+volume_rice <-
+  volume_rice |>
+  mutate(Imports = Imports * 1000) |>
+  select(`U.S. imports of grains and grain products`, Year, Imports)
+```
+
+```{r}
+ggplot(volume_rice, aes(x = Year, y = Imports)) +
+  geom_line(linewidth = 1) +
+  geom_point() +
+  scale_x_continuous(breaks = seq(min(volume_rice$Year), max(volume_rice$Year), by = 5)) +
+  theme_minimal() +
+  labs(title = "U.S. Rice Import Volume Trends (1999-2024)",
+    x = "Year",
+    y = "Import Volume (Metric Tons)")
+```
