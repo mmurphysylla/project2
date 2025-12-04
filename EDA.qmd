@@ -16,9 +16,7 @@ volume_meat <-
 ```{r}
 volume_meat <-
   volume_meat |>
-  mutate(Year = as.numeric(Year)) |>
-  mutate(Imports = as.numeric(Imports),
-    Imports = Imports * 1000) |>
+  mutate(Imports = Imports * 1000) |>
   select(`U.S. food import volume, by food group`, Year, Imports)
 ```
 
@@ -44,9 +42,7 @@ volume_dairy <-
 ```{r}
 volume_dairy <-
   volume_dairy |>
-  mutate(Year = as.numeric(Year)) |>
-  mutate(Imports = as.numeric(Imports),
-    Imports = Imports * 1000) |>
+  mutate(Imports = Imports * 1000) |>
   select(`U.S. food import volume, by food group`, Year, Imports)
 ```
 
@@ -73,9 +69,7 @@ volume_rice <-
 ```{r}
 volume_rice <-
   volume_rice |>
-  mutate(Year = as.numeric(Year)) |>
-  mutate(Imports = as.numeric(Imports),
-    Imports = Imports * 1000) |>
+  mutate(Imports = Imports * 1000) |>
   select(`U.S. imports of grains and grain products`, Year, Imports)
 ```
 
@@ -89,4 +83,3 @@ ggplot(volume_rice, aes(x = Year, y = Imports)) +
     x = "Year",
     y = "Import Volume (Metric Tons)")
 ```
-
