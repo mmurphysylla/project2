@@ -248,4 +248,14 @@ meats <-
   pivot_longer(cols = c("2024":"1999"),
                names_to = "Year",
                values_to = "Imports")
+volume <-
+  volume |>
+  pivot_longer(cols = c("2024":"1999"),
+               names_to = "Year",
+               values_to = "Imports")
+value <-
+  value |>
+  pivot_longer(cols = c("2024":"1999"),
+               names_to = "Year",
+               values_to = "Imports")
 ```
