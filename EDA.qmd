@@ -60,3 +60,33 @@ ggplot(volume_dairy, aes(x = Year, y = Imports)) +
     x = "Year",
     y = "Import Volume (Metric Tons)")
 ```
+
+## Assessing Rice Import Volume
+
+```{r}
+volume_rice <-
+  grains |>
+  filter(`U.S. imports of grains and grain products` == "Rice and products",
+         Measurement == "1,000 metric tons")
+```
+
+```{r}
+volume_rice <-
+  volume_rice |>
+  mutate(Year = as.numeric(Year)) |>
+  mutate(Imports = as.numeric(Imports),
+    Imports = Imports * 1000) |>
+  select(`U.S. imports of grains and grain products`, Year, Imports)
+```
+
+```{r}
+ggplot(volume_rice, aes(x = Year, y = Imports)) +
+  geom_line(linewidth = 1) +
+  geom_point() +
+  scale_x_continuous(breaks = seq(min(volume_rice$Year), max(volume_rice$Year), by = 5)) +
+  theme_minimal() +
+  labs(title = "U.S. Rice Import Volume Trends (1999-2024)",
+    x = "Year",
+    y = "Import Volume (Metric Tons)")
+```
+
