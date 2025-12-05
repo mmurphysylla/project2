@@ -85,7 +85,6 @@ ggplot(volume_rice, aes(x = Year, y = Imports)) +
 ```
 
 ### EDA (Khadija)
-
 ##### Value Summary
 
 ```{r}
@@ -236,3 +235,4 @@ volume |>
     y = "Imports"
   )
 ```
+
