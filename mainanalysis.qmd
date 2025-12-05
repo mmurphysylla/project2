@@ -1,0 +1,21 @@
+---
+title: "Main Analysis"
+format: html
+---
+
+## Main Analysis (move to new qmd soon)
+```{r}
+volume_perc |>
+  filter(Year == "2009") |>
+  ggplot(
+    aes(x = reorder(Category, Imports), 
+        y = Imports,
+        fill = Category)) +
+  geom_col() +
+  scale_fill_viridis_d(option = "turbo") +
+  theme_minimal() +
+  labs(
+    title = "Percent Change U.S. Food Imports by Category, 1999–2024",
+    x = "",
+    y = "Percent Change")
+```
