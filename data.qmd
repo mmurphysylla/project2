@@ -287,6 +287,7 @@ value <-
 ### EDA (Khadija)
 
 ##### Value Summary
+
 ```{r}
 imports_value_sum <- value |>
   group_by(Category) |>
@@ -299,6 +300,7 @@ imports_value_sum
 ```
 
 ##### Bar Chart - Average Annual Value of U.S. Food Imports by Category, 1999–2024
+
 ```{r}
 imports_value_sum |>
   ggplot(
@@ -316,6 +318,7 @@ imports_value_sum |>
 ```
 
 ##### Line Graph - U.S. Food Imports Value Over Time (in Million Dollars), Faceted by Category, 1999-2024
+
 ```{r}
 library(ggplot2)
 
@@ -333,6 +336,7 @@ value |>
 ```
 
 ##### Line Graph + Points - U.S. Plant Imports Value (in Million Dollars), 1999-2024
+
 ```{r}
 value |>
   filter(Category == "Plants") |>
@@ -349,6 +353,7 @@ value |>
 ```
 
 ##### Volume Summary
+
 ```{r}
 volume_sum <- volume |>
   group_by(Category) |>
@@ -361,6 +366,7 @@ volume_sum
 ```
 
 ##### Line Graph - U.S. Food Imports Volume Over Time, by Category (1999-2024)
+
 ```{r}
 volume |>
   ggplot(
@@ -376,6 +382,7 @@ volume |>
 ```
 
 ##### Line Graph + Points - U.S. Live Meat Animal Imports in Volume (1999-2024)
+
 ```{r}
 volume |>
   filter(Category == "Live meat animals") |>
@@ -393,12 +400,14 @@ volume |>
 ##### Value & Volume
 
 ##### Joining volume and value
+
 ```{r}
 sum_val_vol <- imports_value_sum |>
   inner_join(volume_sum, by = "Category")
 ```
 
 ##### Scatterplot - Average Value vs Volume of U.S. Food Imports
+
 ```{r}
 sum_val_vol |>
   ggplot(aes(x = avg_volume, y = avg_imports, color = Category)) +
@@ -412,4 +421,3 @@ sum_val_vol |>
   ) +
   theme_minimal()
 ```
-
