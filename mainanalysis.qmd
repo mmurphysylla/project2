@@ -36,3 +36,24 @@ volume_perc |>
     x = "",
     y = "Percent Change")
 ```
+
+```{r}
+data_06 <- volume_perc |>
+  filter(Year == "2006") |>
+  select(Category, imp_2006 = Imports)
+
+data_09 <- volume_perc |>
+  filter(Year == "2009") |>
+  select(Category, imp_2009 = Imports)
+
+sum_diff_06_09 <- data_06 |>
+  left_join(data_09, by = "Category") |>
+  mutate(
+    diff = imp_2009 - imp_2006, ## raw changes
+    perc_diff = (imp_2009 - imp_2006) / imp_2006 * 100) ## percent changes relative to 2006
+
+data_06
+data_09
+sum_diff_06_09
+```
+
