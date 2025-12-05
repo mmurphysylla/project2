@@ -222,3 +222,17 @@ sum_val_vol |>
   theme_minimal()
 ```
 
+##### Line Graph: U.S. Food Imports Volume Over Time (in Million Dollars), Faceted by Category, 1999-2024
+```{r}
+volume |>
+  ggplot(
+    aes(x = Year, y = Imports, color = Category)) +
+  geom_line() +
+  facet_wrap(~ Category, scales = "free_y") +
+  theme_minimal() +
+  labs(
+    title = "U.S. Food Imports Volume Over Time (in Million Dollars), Faceted by Category, 1999-2024",
+    x = "Year",
+    y = "Imports"
+  )
+```
