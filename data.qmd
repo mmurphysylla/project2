@@ -267,6 +267,14 @@ meats <-
   mutate(Year = as.numeric(Year)) |>
   mutate(Imports = as.numeric(Imports))
 
+volume_perc <-
+  volume_perc |> 
+  pivot_longer(cols = c("2024":"2000"),
+               names_to = "Year",
+               values_to = "Imports") |>
+  mutate(Year = as.numeric(Year)) |>
+  mutate(Imports = as.numeric(Imports))
+
 volume <-
   volume |>
   pivot_longer(cols = c("2024":"1999"),
