@@ -1,0 +1,38 @@
+---
+title: "Main Analysis"
+format: html
+---
+
+## Main Analysis (move to new qmd soon)
+
+```{r}
+volume_perc |>
+  filter(Year == "2006") |>
+  ggplot(
+    aes(x = reorder(Category, Imports), 
+        y = Imports,
+        fill = Category)) +
+  geom_col() +
+  scale_fill_viridis_d(option = "turbo") +
+  theme(axis.text.x = element_blank()) +
+  labs(
+    title = "Percent Change U.S. Food Imports by Category, 2005-2006",
+    x = "",
+    y = "Percent Change")
+```
+
+```{r}
+volume_perc |>
+  filter(Year == "2009") |>
+  ggplot(
+    aes(x = reorder(Category, Imports), 
+        y = Imports,
+        fill = Category)) +
+  geom_col() +
+  scale_fill_viridis_d(option = "turbo") +
+  theme(axis.text.x = element_blank()) +
+  labs(
+    title = "Percent Change U.S. Food Imports by Category, 2008-2009",
+    x = "",
+    y = "Percent Change")
+```
