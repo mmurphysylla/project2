@@ -12,9 +12,11 @@ This project analyzes trends of U.S. food imports in the last 20 years, and how 
 
 Here is how the repository is structured:
 
--   **data folder**
+-   **Data folder**
 
     -   Contains the original data set: `FoodImports.xlsx`
+      
+    -   Contains tidied data sets used throughout analysis: `volume.csv`, `volumemeat.csv`, `volumedairy.csv`, `volumeperc.csv`, `totalpercchange0609.csv`
 
 -   **R**
 
