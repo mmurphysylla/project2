@@ -1,0 +1,365 @@
+"","U.S. food import volume, by food group","Category","Measurement","Year","Imports"
+"1","Foods","Live meat animals","1,000 head",2024,8802.4
+"2","Foods","Live meat animals","1,000 head",2023,8744.7
+"3","Foods","Live meat animals","1,000 head",2022,8134.9
+"4","Foods","Live meat animals","1,000 head",2021,8440.9
+"5","Foods","Live meat animals","1,000 head",2020,7397.3
+"6","Foods","Live meat animals","1,000 head",2019,7139.2
+"7","Foods","Live meat animals","1,000 head",2018,7124.5
+"8","Foods","Live meat animals","1,000 head",2017,7363.3
+"9","Foods","Live meat animals","1,000 head",2016,7336.2
+"10","Foods","Live meat animals","1,000 head",2015,7661.2
+"11","Foods","Live meat animals","1,000 head",2014,7232.6
+"12","Foods","Live meat animals","1,000 head",2013,6947.3
+"13","Foods","Live meat animals","1,000 head",2012,7909.8
+"14","Foods","Live meat animals","1,000 head",2011,7872.7
+"15","Foods","Live meat animals","1,000 head",2010,7997.6
+"16","Foods","Live meat animals","1,000 head",2009,8350
+"17","Foods","Live meat animals","1,000 head",2008,11558.6
+"18","Foods","Live meat animals","1,000 head",2007,12419.5
+"19","Foods","Live meat animals","1,000 head",2006,10985.5
+"20","Foods","Live meat animals","1,000 head",2005,9951.9
+"21","Foods","Live meat animals","1,000 head",2004,9866.3
+"22","Foods","Live meat animals","1,000 head",2003,9223.2
+"23","Foods","Live meat animals","1,000 head",2002,8302.9
+"24","Foods","Live meat animals","1,000 head",2001,7758.1
+"25","Foods","Live meat animals","1,000 head",2000,6521.8
+"26","Foods","Live meat animals","1,000 head",1999,6058.4
+"27","Foods","Meats","1,000 mt",2024,2531.3
+"28","Foods","Meats","1,000 mt",2023,2156.7
+"29","Foods","Meats","1,000 mt",2022,2201.7
+"30","Foods","Meats","1,000 mt",2021,2076.9
+"31","Foods","Meats","1,000 mt",2020,1886.9
+"32","Foods","Meats","1,000 mt",2019,1795.5
+"33","Foods","Meats","1,000 mt",2018,1821.2
+"34","Foods","Meats","1,000 mt",2017,1847.8
+"35","Foods","Meats","1,000 mt",2016,1824.8
+"36","Foods","Meats","1,000 mt",2015,1942.8
+"37","Foods","Meats","1,000 mt",2014,1720.2
+"38","Foods","Meats","1,000 mt",2013,1400.5
+"39","Foods","Meats","1,000 mt",2012,1336.6
+"40","Foods","Meats","1,000 mt",2011,1270.1
+"41","Foods","Meats","1,000 mt",2010,1371.5
+"42","Foods","Meats","1,000 mt",2009,1445.4
+"43","Foods","Meats","1,000 mt",2008,1411.4
+"44","Foods","Meats","1,000 mt",2007,1628.2
+"45","Foods","Meats","1,000 mt",2006,1627.4
+"46","Foods","Meats","1,000 mt",2005,1797.1
+"47","Foods","Meats","1,000 mt",2004,1839.2
+"48","Foods","Meats","1,000 mt",2003,1659.3
+"49","Foods","Meats","1,000 mt",2002,1700
+"50","Foods","Meats","1,000 mt",2001,1634
+"51","Foods","Meats","1,000 mt",2000,1578.1
+"52","Foods","Meats","1,000 mt",1999,1439.6
+"53","Foods","Fish and Shellfish","1,000 mt",2024,2861.5
+"54","Foods","Fish and Shellfish","1,000 mt",2023,2820
+"55","Foods","Fish and Shellfish","1,000 mt",2022,3086.4
+"56","Foods","Fish and Shellfish","1,000 mt",2021,3051.1
+"57","Foods","Fish and Shellfish","1,000 mt",2020,2729.3
+"58","Foods","Fish and Shellfish","1,000 mt",2019,2648.9
+"59","Foods","Fish and Shellfish","1,000 mt",2018,2718.8
+"60","Foods","Fish and Shellfish","1,000 mt",2017,2621.8
+"61","Foods","Fish and Shellfish","1,000 mt",2016,2553.5
+"62","Foods","Fish and Shellfish","1,000 mt",2015,2496.3
+"63","Foods","Fish and Shellfish","1,000 mt",2014,2450
+"64","Foods","Fish and Shellfish","1,000 mt",2013,2378.4
+"65","Foods","Fish and Shellfish","1,000 mt",2012,2361.5
+"66","Foods","Fish and Shellfish","1,000 mt",2011,2345.6
+"67","Foods","Fish and Shellfish","1,000 mt",2010,2342
+"68","Foods","Fish and Shellfish","1,000 mt",2009,2246.8
+"69","Foods","Fish and Shellfish","1,000 mt",2008,2250.4
+"70","Foods","Fish and Shellfish","1,000 mt",2007,2284.6
+"71","Foods","Fish and Shellfish","1,000 mt",2006,2313.5
+"72","Foods","Fish and Shellfish","1,000 mt",2005,2196
+"73","Foods","Fish and Shellfish","1,000 mt",2004,2116.7
+"74","Foods","Fish and Shellfish","1,000 mt",2003,2078.6
+"75","Foods","Fish and Shellfish","1,000 mt",2002,1898.3
+"76","Foods","Fish and Shellfish","1,000 mt",2001,1755.2
+"77","Foods","Fish and Shellfish","1,000 mt",2000,1710.9
+"78","Foods","Fish and Shellfish","1,000 mt",1999,1677.8
+"79","Foods","Dairy","1,000 mt",2024,505.1
+"80","Foods","Dairy","1,000 mt",2023,416.8
+"81","Foods","Dairy","1,000 mt",2022,401.1
+"82","Foods","Dairy","1,000 mt",2021,370.8
+"83","Foods","Dairy","1,000 mt",2020,368.4
+"84","Foods","Dairy","1,000 mt",2019,384.2
+"85","Foods","Dairy","1,000 mt",2018,364
+"86","Foods","Dairy","1,000 mt",2017,367
+"87","Foods","Dairy","1,000 mt",2016,385.2
+"88","Foods","Dairy","1,000 mt",2015,354.9
+"89","Foods","Dairy","1,000 mt",2014,295.9
+"90","Foods","Dairy","1,000 mt",2013,273.2
+"91","Foods","Dairy","1,000 mt",2012,281.7
+"92","Foods","Dairy","1,000 mt",2011,242.7
+"93","Foods","Dairy","1,000 mt",2010,244.8
+"94","Foods","Dairy","1,000 mt",2009,285.6
+"95","Foods","Dairy","1,000 mt",2008,302.6
+"96","Foods","Dairy","1,000 mt",2007,359.6
+"97","Foods","Dairy","1,000 mt",2006,367.7
+"98","Foods","Dairy","1,000 mt",2005,375.8
+"99","Foods","Dairy","1,000 mt",2004,341.8
+"100","Foods","Dairy","1,000 mt",2003,335.1
+"101","Foods","Dairy","1,000 mt",2002,329.9
+"102","Foods","Dairy","1,000 mt",2001,323.5
+"103","Foods","Dairy","1,000 mt",2000,297.1
+"104","Foods","Dairy","1,000 mt",1999,298.8
+"105","Foods","Vegetables","1,000 mt",2024,13819.6
+"106","Foods","Vegetables","1,000 mt",2023,13831.3
+"107","Foods","Vegetables","1,000 mt",2022,13691.2
+"108","Foods","Vegetables","1,000 mt",2021,13318.1
+"109","Foods","Vegetables","1,000 mt",2020,12257.7
+"110","Foods","Vegetables","1,000 mt",2019,11743.6
+"111","Foods","Vegetables","1,000 mt",2018,11645.6
+"112","Foods","Vegetables","1,000 mt",2017,11053.6
+"113","Foods","Vegetables","1,000 mt",2016,10573.1
+"114","Foods","Vegetables","1,000 mt",2015,9717.4
+"115","Foods","Vegetables","1,000 mt",2014,9560.5
+"116","Foods","Vegetables","1,000 mt",2013,8976.3
+"117","Foods","Vegetables","1,000 mt",2012,8614.3
+"118","Foods","Vegetables","1,000 mt",2011,8429.5
+"119","Foods","Vegetables","1,000 mt",2010,8076.2
+"120","Foods","Vegetables","1,000 mt",2009,7301.2
+"121","Foods","Vegetables","1,000 mt",2008,7333.4
+"122","Foods","Vegetables","1,000 mt",2007,7190.6
+"123","Foods","Vegetables","1,000 mt",2006,6606.3
+"124","Foods","Vegetables","1,000 mt",2005,6352.4
+"125","Foods","Vegetables","1,000 mt",2004,6222.8
+"126","Foods","Vegetables","1,000 mt",2003,5935.4
+"127","Foods","Vegetables","1,000 mt",2002,5561.8
+"128","Foods","Vegetables","1,000 mt",2001,5120.8
+"129","Foods","Vegetables","1,000 mt",2000,4742.2
+"130","Foods","Vegetables","1,000 mt",1999,4781.1
+"131","Foods","Fruits","1,000 mt",2024,15438.5
+"132","Foods","Fruits","1,000 mt",2023,15206.9
+"133","Foods","Fruits","1,000 mt",2022,15144.7
+"134","Foods","Fruits","1,000 mt",2021,14753.6
+"135","Foods","Fruits","1,000 mt",2020,14183.1
+"136","Foods","Fruits","1,000 mt",2019,13900.7
+"137","Foods","Fruits","1,000 mt",2018,14065.3
+"138","Foods","Fruits","1,000 mt",2017,13624.4
+"139","Foods","Fruits","1,000 mt",2016,13269.2
+"140","Foods","Fruits","1,000 mt",2015,12884
+"141","Foods","Fruits","1,000 mt",2014,12175.5
+"142","Foods","Fruits","1,000 mt",2013,11849.1
+"143","Foods","Fruits","1,000 mt",2012,11047.4
+"144","Foods","Fruits","1,000 mt",2011,10384.7
+"145","Foods","Fruits","1,000 mt",2010,10068.2
+"146","Foods","Fruits","1,000 mt",2009,9416.9
+"147","Foods","Fruits","1,000 mt",2008,9690.8
+"148","Foods","Fruits","1,000 mt",2007,9836.7
+"149","Foods","Fruits","1,000 mt",2006,9029.8
+"150","Foods","Fruits","1,000 mt",2005,8691.4
+"151","Foods","Fruits","1,000 mt",2004,8360.4
+"152","Foods","Fruits","1,000 mt",2003,8224.9
+"153","Foods","Fruits","1,000 mt",2002,7944.2
+"154","Foods","Fruits","1,000 mt",2001,7492.6
+"155","Foods","Fruits","1,000 mt",2000,7639.5
+"156","Foods","Fruits","1,000 mt",1999,7835.3
+"157","Foods","Nuts","1,000 mt",2024,579.8
+"158","Foods","Nuts","1,000 mt",2023,517.1
+"159","Foods","Nuts","1,000 mt",2022,550.2
+"160","Foods","Nuts","1,000 mt",2021,589.2
+"161","Foods","Nuts","1,000 mt",2020,513.8
+"162","Foods","Nuts","1,000 mt",2019,534.3
+"163","Foods","Nuts","1,000 mt",2018,553.8
+"164","Foods","Nuts","1,000 mt",2017,544.8
+"165","Foods","Nuts","1,000 mt",2016,514.1
+"166","Foods","Nuts","1,000 mt",2015,507.3
+"167","Foods","Nuts","1,000 mt",2014,472.7
+"168","Foods","Nuts","1,000 mt",2013,425.8
+"169","Foods","Nuts","1,000 mt",2012,441.2
+"170","Foods","Nuts","1,000 mt",2011,357.6
+"171","Foods","Nuts","1,000 mt",2010,357.7
+"172","Foods","Nuts","1,000 mt",2009,356
+"173","Foods","Nuts","1,000 mt",2008,339.4
+"174","Foods","Nuts","1,000 mt",2007,352.5
+"175","Foods","Nuts","1,000 mt",2006,325.8
+"176","Foods","Nuts","1,000 mt",2005,326.5
+"177","Foods","Nuts","1,000 mt",2004,334.8
+"178","Foods","Nuts","1,000 mt",2003,309.9
+"179","Foods","Nuts","1,000 mt",2002,332.6
+"180","Foods","Nuts","1,000 mt",2001,315.9
+"181","Foods","Nuts","1,000 mt",2000,312.4
+"182","Foods","Nuts","1,000 mt",1999,271.9
+"183","Foods","Coffee, tea, and spices","1,000 mt",2024,2297.2
+"184","Foods","Coffee, tea, and spices","1,000 mt",2023,2129.9
+"185","Foods","Coffee, tea, and spices","1,000 mt",2022,2413.7
+"186","Foods","Coffee, tea, and spices","1,000 mt",2021,2344.6
+"187","Foods","Coffee, tea, and spices","1,000 mt",2020,2254.6
+"188","Foods","Coffee, tea, and spices","1,000 mt",2019,2371.9
+"189","Foods","Coffee, tea, and spices","1,000 mt",2018,2236.8
+"190","Foods","Coffee, tea, and spices","1,000 mt",2017,2276.2
+"191","Foods","Coffee, tea, and spices","1,000 mt",2016,2235.8
+"192","Foods","Coffee, tea, and spices","1,000 mt",2015,2161
+"193","Foods","Coffee, tea, and spices","1,000 mt",2014,2112.4
+"194","Foods","Coffee, tea, and spices","1,000 mt",2013,2087
+"195","Foods","Coffee, tea, and spices","1,000 mt",2012,2018.8
+"196","Foods","Coffee, tea, and spices","1,000 mt",2011,2015
+"197","Foods","Coffee, tea, and spices","1,000 mt",2010,1894.6
+"198","Foods","Coffee, tea, and spices","1,000 mt",2009,1823
+"199","Foods","Coffee, tea, and spices","1,000 mt",2008,1881.9
+"200","Foods","Coffee, tea, and spices","1,000 mt",2007,1850.9
+"201","Foods","Coffee, tea, and spices","1,000 mt",2006,1825.5
+"202","Foods","Coffee, tea, and spices","1,000 mt",2005,1744.6
+"203","Foods","Coffee, tea, and spices","1,000 mt",2004,1757.1
+"204","Foods","Coffee, tea, and spices","1,000 mt",2003,1715
+"205","Foods","Coffee, tea, and spices","1,000 mt",2002,1635.5
+"206","Foods","Coffee, tea, and spices","1,000 mt",2001,1599.8
+"207","Foods","Coffee, tea, and spices","1,000 mt",2000,1725.2
+"208","Foods","Coffee, tea, and spices","1,000 mt",1999,1650.7
+"209","Foods","Grains","1,000 mt",2024,12888.9
+"210","Foods","Grains","1,000 mt",2023,13275.4
+"211","Foods","Grains","1,000 mt",2022,12117.3
+"212","Foods","Grains","1,000 mt",2021,10850.8
+"213","Foods","Grains","1,000 mt",2020,11355.4
+"214","Foods","Grains","1,000 mt",2019,11076.5
+"215","Foods","Grains","1,000 mt",2018,11810.7
+"216","Foods","Grains","1,000 mt",2017,11505.7
+"217","Foods","Grains","1,000 mt",2016,10671.4
+"218","Foods","Grains","1,000 mt",2015,10682.8
+"219","Foods","Grains","1,000 mt",2014,11077.7
+"220","Foods","Grains","1,000 mt",2013,12763.1
+"221","Foods","Grains","1,000 mt",2012,10414.9
+"222","Foods","Grains","1,000 mt",2011,8368.1
+"223","Foods","Grains","1,000 mt",2010,8447.4
+"224","Foods","Grains","1,000 mt",2009,8655.6
+"225","Foods","Grains","1,000 mt",2008,9644.6
+"226","Foods","Grains","1,000 mt",2007,8739.6
+"227","Foods","Grains","1,000 mt",2006,7687.3
+"228","Foods","Grains","1,000 mt",2005,6541.5
+"229","Foods","Grains","1,000 mt",2004,6487.1
+"230","Foods","Grains","1,000 mt",2003,6063.1
+"231","Foods","Grains","1,000 mt",2002,6897.7
+"232","Foods","Grains","1,000 mt",2001,7330.8
+"233","Foods","Grains","1,000 mt",2000,6532.7
+"234","Foods","Grains","1,000 mt",1999,6895.5
+"235","Foods","Vegetable oils","1,000 mt",2024,8482.8
+"236","Foods","Vegetable oils","1,000 mt",2023,8013.1
+"237","Foods","Vegetable oils","1,000 mt",2022,7265.1
+"238","Foods","Vegetable oils","1,000 mt",2021,6720.6
+"239","Foods","Vegetable oils","1,000 mt",2020,6221.6
+"240","Foods","Vegetable oils","1,000 mt",2019,6151.5
+"241","Foods","Vegetable oils","1,000 mt",2018,6284.5
+"242","Foods","Vegetable oils","1,000 mt",2017,6401.9
+"243","Foods","Vegetable oils","1,000 mt",2016,6199.9
+"244","Foods","Vegetable oils","1,000 mt",2015,6019.8
+"245","Foods","Vegetable oils","1,000 mt",2014,7509.7
+"246","Foods","Vegetable oils","1,000 mt",2013,6281
+"247","Foods","Vegetable oils","1,000 mt",2012,5014.8
+"248","Foods","Vegetable oils","1,000 mt",2011,5232.1
+"249","Foods","Vegetable oils","1,000 mt",2010,4586.1
+"250","Foods","Vegetable oils","1,000 mt",2009,4438
+"251","Foods","Vegetable oils","1,000 mt",2008,4842.3
+"252","Foods","Vegetable oils","1,000 mt",2007,3936.3
+"253","Foods","Vegetable oils","1,000 mt",2006,3580.2
+"254","Foods","Vegetable oils","1,000 mt",2005,2877.5
+"255","Foods","Vegetable oils","1,000 mt",2004,2763.3
+"256","Foods","Vegetable oils","1,000 mt",2003,2073.7
+"257","Foods","Vegetable oils","1,000 mt",2002,2386
+"258","Foods","Vegetable oils","1,000 mt",2001,2482.7
+"259","Foods","Vegetable oils","1,000 mt",2000,2494.4
+"260","Foods","Vegetable oils","1,000 mt",1999,2135.2
+"261","Foods","Sugar and candy","1,000 mt",2024,5229
+"262","Foods","Sugar and candy","1,000 mt",2023,4744
+"263","Foods","Sugar and candy","1,000 mt",2022,4868.9
+"264","Foods","Sugar and candy","1,000 mt",2021,4504.9
+"265","Foods","Sugar and candy","1,000 mt",2020,4919.9
+"266","Foods","Sugar and candy","1,000 mt",2019,4271.9
+"267","Foods","Sugar and candy","1,000 mt",2018,4147.3
+"268","Foods","Sugar and candy","1,000 mt",2017,4076.9
+"269","Foods","Sugar and candy","1,000 mt",2016,4333.6
+"270","Foods","Sugar and candy","1,000 mt",2015,4414.4
+"271","Foods","Sugar and candy","1,000 mt",2014,4232.1
+"272","Foods","Sugar and candy","1,000 mt",2013,4018.3
+"273","Foods","Sugar and candy","1,000 mt",2012,4091.9
+"274","Foods","Sugar and candy","1,000 mt",2011,4521.3
+"275","Foods","Sugar and candy","1,000 mt",2010,3959.3
+"276","Foods","Sugar and candy","1,000 mt",2009,3421.1
+"277","Foods","Sugar and candy","1,000 mt",2008,3627.7
+"278","Foods","Sugar and candy","1,000 mt",2007,2951.2
+"279","Foods","Sugar and candy","1,000 mt",2006,3880.4
+"280","Foods","Sugar and candy","1,000 mt",2005,3093.9
+"281","Foods","Sugar and candy","1,000 mt",2004,2386.8
+"282","Foods","Sugar and candy","1,000 mt",2003,2372.5
+"283","Foods","Sugar and candy","1,000 mt",2002,2144.7
+"284","Foods","Sugar and candy","1,000 mt",2001,2035.3
+"285","Foods","Sugar and candy","1,000 mt",2000,2111.8
+"286","Foods","Sugar and candy","1,000 mt",1999,2207.6
+"287","Foods","Cocoa and chocolate","1,000 mt",2024,1264.9
+"288","Foods","Cocoa and chocolate","1,000 mt",2023,1338.9
+"289","Foods","Cocoa and chocolate","1,000 mt",2022,1513.2
+"290","Foods","Cocoa and chocolate","1,000 mt",2021,1532.5
+"291","Foods","Cocoa and chocolate","1,000 mt",2020,1391.9
+"292","Foods","Cocoa and chocolate","1,000 mt",2019,1393.9
+"293","Foods","Cocoa and chocolate","1,000 mt",2018,1372.8
+"294","Foods","Cocoa and chocolate","1,000 mt",2017,1453.7
+"295","Foods","Cocoa and chocolate","1,000 mt",2016,1365.8
+"296","Foods","Cocoa and chocolate","1,000 mt",2015,1336.7
+"297","Foods","Cocoa and chocolate","1,000 mt",2014,1295.8
+"298","Foods","Cocoa and chocolate","1,000 mt",2013,1303.4
+"299","Foods","Cocoa and chocolate","1,000 mt",2012,1237.3
+"300","Foods","Cocoa and chocolate","1,000 mt",2011,1312.9
+"301","Foods","Cocoa and chocolate","1,000 mt",2010,1222.1
+"302","Foods","Cocoa and chocolate","1,000 mt",2009,1169.4
+"303","Foods","Cocoa and chocolate","1,000 mt",2008,1113.9
+"304","Foods","Cocoa and chocolate","1,000 mt",2007,1129.2
+"305","Foods","Cocoa and chocolate","1,000 mt",2006,1254.3
+"306","Foods","Cocoa and chocolate","1,000 mt",2005,1306.3
+"307","Foods","Cocoa and chocolate","1,000 mt",2004,1168.2
+"308","Foods","Cocoa and chocolate","1,000 mt",2003,1046.3
+"309","Foods","Cocoa and chocolate","1,000 mt",2002,916.2
+"310","Foods","Cocoa and chocolate","1,000 mt",2001,990.9
+"311","Foods","Cocoa and chocolate","1,000 mt",2000,998.8
+"312","Foods","Cocoa and chocolate","1,000 mt",1999,923.7
+"313","Foods","Other edible products","1,000 mt",2024,4145.5
+"314","Foods","Other edible products","1,000 mt",2023,3732.2
+"315","Foods","Other edible products","1,000 mt",2022,3582.8
+"316","Foods","Other edible products","1,000 mt",2021,3035.5
+"317","Foods","Other edible products","1,000 mt",2020,2652.4
+"318","Foods","Other edible products","1,000 mt",2019,2406.1
+"319","Foods","Other edible products","1,000 mt",2018,2385.8
+"320","Foods","Other edible products","1,000 mt",2017,2216.5
+"321","Foods","Other edible products","1,000 mt",2016,2010.5
+"322","Foods","Other edible products","1,000 mt",2015,1971.9
+"323","Foods","Other edible products","1,000 mt",2014,2062.2
+"324","Foods","Other edible products","1,000 mt",2013,1948.8
+"325","Foods","Other edible products","1,000 mt",2012,1892.6
+"326","Foods","Other edible products","1,000 mt",2011,1840.1
+"327","Foods","Other edible products","1,000 mt",2010,1653.8
+"328","Foods","Other edible products","1,000 mt",2009,1509
+"329","Foods","Other edible products","1,000 mt",2008,1695.5
+"330","Foods","Other edible products","1,000 mt",2007,1650.3
+"331","Foods","Other edible products","1,000 mt",2006,1622.1
+"332","Foods","Other edible products","1,000 mt",2005,1534.4
+"333","Foods","Other edible products","1,000 mt",2004,1468.5
+"334","Foods","Other edible products","1,000 mt",2003,1303
+"335","Foods","Other edible products","1,000 mt",2002,1297.1
+"336","Foods","Other edible products","1,000 mt",2001,1212.4
+"337","Foods","Other edible products","1,000 mt",2000,1004.7
+"338","Foods","Other edible products","1,000 mt",1999,958.2
+"339","Foods","Beverages","1,000 litpf",2024,10485.7
+"340","Foods","Beverages","1,000 litpf",2023,9503
+"341","Foods","Beverages","1,000 litpf",2022,9755
+"342","Foods","Beverages","1,000 litpf",2021,9925.6
+"343","Foods","Beverages","1,000 litpf",2020,8987.8
+"344","Foods","Beverages","1,000 litpf",2019,8487.3
+"345","Foods","Beverages","1,000 litpf",2018,8241.1
+"346","Foods","Beverages","1,000 litpf",2017,8173.9
+"347","Foods","Beverages","1,000 litpf",2016,7762.9
+"348","Foods","Beverages","1,000 litpf",2015,7232.6
+"349","Foods","Beverages","1,000 litpf",2014,6674.1
+"350","Foods","Beverages","1,000 litpf",2013,6346.6
+"351","Foods","Beverages","1,000 litpf",2012,6376.9
+"352","Foods","Beverages","1,000 litpf",2011,6014.6
+"353","Foods","Beverages","1,000 litpf",2010,5789.5
+"354","Foods","Beverages","1,000 litpf",2009,5576.8
+"355","Foods","Beverages","1,000 litpf",2008,6043.7
+"356","Foods","Beverages","1,000 litpf",2007,6280.7
+"357","Foods","Beverages","1,000 litpf",2006,6075.3
+"358","Foods","Beverages","1,000 litpf",2005,5472.9
+"359","Foods","Beverages","1,000 litpf",2004,5244.9
+"360","Foods","Beverages","1,000 litpf",2003,5095.6
+"361","Foods","Beverages","1,000 litpf",2002,4441.3
+"362","Foods","Beverages","1,000 litpf",2001,4162.3
+"363","Foods","Beverages","1,000 litpf",2000,3898.2
+"364","Foods","Beverages","1,000 litpf",1999,3538
