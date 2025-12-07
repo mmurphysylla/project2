@@ -22,7 +22,7 @@ Here is how the repository is structured:
 
     -   Contains the file for our exploratory data analysis: `EDA.qmd`
 
-    -   Contains the file for our overall analysis:
+    -   Contains the file for our overall analysis: `mainanalysis.qmd`
 
 -   **README.md**
 
