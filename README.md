@@ -18,7 +18,7 @@ Here is how the repository is structured:
 
 -   **R**
 
-    -   Contains the file for data tidying: `data.qmd`
+    -   Contains the file for data tidying: `tidying.qmd`
 
     -   Contains the file for our exploratory data analysis: `EDA.qmd`
 
