@@ -16,7 +16,7 @@ volume_perc |>
   scale_fill_viridis_d(option = "turbo") +
   theme(axis.text.x = element_blank()) +
   labs(
-    title = "Percent Change U.S. Food Imports by Category, 2005-2006",
+    title = "Percent Change U.S. Food Import Volume by Category, 2005-2006",
     x = "",
     y = "Percent Change")
 ```
@@ -48,11 +48,13 @@ data_09 <- volume_perc |>
 
 sum_diff_06_09 <- data_06 |>
   left_join(data_09, by = "Category") |>
-  mutate(
-    diff = imp_2009 - imp_2006, ## raw changes
-    perc_diff = (imp_2009 - imp_2006) / imp_2006 * 100) ## percent changes relative to 2006
+  mutate(diff = abs(imp_2009) + abs(imp_2006)) |>
+  rename(
+    "Percent Change 2005-2006" = imp_2006,
+    "Percent Change 2008-2009" = imp_2009,
+    "Total Percent Change" = diff) |>
+  arrange(desc(`Total Percent Change`))
 
-data_06
-data_09
+
 sum_diff_06_09
 ```
