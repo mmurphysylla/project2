@@ -3,7 +3,27 @@ title: "Main Analysis"
 format: html
 ---
 
-## Main Analysis
+# Main Analysis
+
+## Assessing Total U.S. Food Imports Volume Over Time
+
+```{r}
+volume |>
+  filter(Measurement == "1,000 mt") |>
+  ggplot(
+    aes(x = Year, y = Imports, color = Category)) +
+  geom_line() +
+  scale_color_viridis_d(option = "turbo") +
+  theme_minimal() +
+  labs(
+    title = "U.S. Food Imports Volume Over Time, by Category (1999-2024)",
+    x = "Year",
+    y = "Imports (1,000 metric tons)"
+  )
+```
+
+
+## Assessing Percent Change in U.S. Food Import Volume, 2005-2006
 
 ```{r}
 volume_perc |>
@@ -21,6 +41,9 @@ volume_perc |>
     y = "Percent Change")
 ```
 
+
+## Assessing Percent Change in U.S. Food Import Volume, 2008-2009
+
 ```{r}
 volume_perc |>
   filter(Year == "2009") |>
@@ -36,6 +59,9 @@ volume_perc |>
     x = "",
     y = "Percent Change")
 ```
+
+
+## Assessing Total Percent Change in U.S. Food Import Volume Between 2005-2006 and 2008-2009
 
 ```{r}
 data_06 <- volume_perc |>
